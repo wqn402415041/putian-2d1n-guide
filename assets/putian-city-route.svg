@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">莆田市区两天一夜动线路线图</title>
+  <desc id="desc">从莆田站进入兴化府老城，连接广化寺、绶溪公园和返程动车站。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfbf8"/>
+      <stop offset="1" stop-color="#edf4ef"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#24342d" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="760" height="520" rx="14" fill="url(#bg)"/>
+  <path d="M116 410 C 210 340, 278 358, 342 296 S 416 214, 494 202 S 634 232, 662 326" fill="none" stroke="#247d74" stroke-width="8" stroke-linecap="round" stroke-dasharray="16 14"/>
+  <path d="M342 296 C 274 248, 218 192, 174 126" fill="none" stroke="#c75b39" stroke-width="7" stroke-linecap="round"/>
+  <path d="M334 306 C 294 362, 236 392, 146 418" fill="none" stroke="#b8841f" stroke-width="7" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="56" y="366" width="142" height="64" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="127" y="392" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">莆田站</text>
+    <text x="127" y="416" text-anchor="middle" font-size="14" fill="#66716c">抵达 / 返程</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="268" y="248" width="160" height="72" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="348" y="276" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">兴化府老城</text>
+    <text x="348" y="301" text-anchor="middle" font-size="14" fill="#66716c">古谯楼 / 文献路</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="92" y="82" width="146" height="66" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="165" y="110" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">广化寺</text>
+    <text x="165" y="134" text-anchor="middle" font-size="14" fill="#66716c">周五下午</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="538" y="298" width="154" height="70" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="615" y="326" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">绶溪公园</text>
+    <text x="615" y="350" text-anchor="middle" font-size="14" fill="#66716c">周六上午</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="294" y="70" width="168" height="70" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="378" y="98" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">全季酒店</text>
+    <text x="378" y="122" text-anchor="middle" font-size="14" fill="#66716c">兴化府步行街店</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="472" y="150" width="158" height="66" rx="8" fill="#ffffff" stroke="#d9ded8"/>
+    <text x="551" y="178" text-anchor="middle" font-size="20" font-weight="700" fill="#16201c">小吃主线</text>
+    <text x="551" y="202" text-anchor="middle" font-size="14" fill="#66716c">卤面 / 炝肉 / 扁食</text>
+  </g>
+  <circle cx="127" cy="410" r="9" fill="#247d74"/>
+  <circle cx="348" cy="296" r="9" fill="#247d74"/>
+  <circle cx="165" cy="126" r="9" fill="#c75b39"/>
+  <circle cx="615" cy="326" r="9" fill="#247d74"/>
+  <circle cx="378" cy="140" r="9" fill="#5f7c3b"/>
+  <circle cx="551" cy="202" r="9" fill="#b8841f"/>
+</svg>
