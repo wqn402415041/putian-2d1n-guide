@@ -164,7 +164,7 @@ h1 {
 }
 
 .route-map-card {
-  min-height: 460px;
+  min-height: 540px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #ffffff;
@@ -173,7 +173,7 @@ h1 {
 
 .route-map {
   position: relative;
-  min-height: 430px;
+  min-height: 510px;
   border-radius: 8px;
   overflow: hidden;
   background:
@@ -207,8 +207,8 @@ h1 {
   position: absolute;
   left: var(--x);
   top: var(--y);
-  width: 86px;
-  min-height: 54px;
+  width: 88px;
+  min-height: 56px;
   transform: translate(-50%, -50%);
   border: 1px solid rgba(22, 32, 28, .16);
   border-radius: 8px;
@@ -217,6 +217,7 @@ h1 {
   box-shadow: 0 12px 28px rgba(44, 55, 48, .13);
   padding: 8px;
   text-align: left;
+  cursor: pointer;
 }
 
 .map-stop strong {
@@ -229,9 +230,10 @@ h1 {
 .map-stop span {
   display: block;
   margin-top: 4px;
-  font-size: 12px;
-  line-height: 1.25;
+  font-size: 11.5px;
+  line-height: 1.22;
   font-weight: 750;
+  overflow-wrap: anywhere;
 }
 
 .map-stop.active {
@@ -487,15 +489,17 @@ time {
   }
 
   .route-map-card {
-    min-height: 588px;
+    min-height: 728px;
   }
 
   .route-map {
-    min-height: 560px;
+    min-height: 700px;
   }
 
   .map-stop {
-    width: 78px;
+    width: 76px;
+    min-height: 54px;
+    padding: 7px;
   }
 
   .nav-actions {
